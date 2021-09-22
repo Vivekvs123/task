@@ -12,12 +12,23 @@ table{
 button{
     font-size: 24;
     background: cyan;
-    width: 45px;
+    width: 50px;
     height: 45px;
-    border-radius: 21px;
+    border-radius: 10px;
 }
 .calculator{
     display: inline-block;
     background: rgb(11, 109, 236);
+    border-radius: 10px;
+}
+.history{
+    height: 290px;
+    width: 250px;
+    overflow-y: scroll;
+    margin-left: 420px;
+    margin-top: 0px;
     
+}
+.history .a{
+    list-style-type: none;
 }
